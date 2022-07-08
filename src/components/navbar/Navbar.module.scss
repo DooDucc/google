@@ -1,0 +1,36 @@
+.navbar {
+    padding: 20px 5px 0 5px;
+    border-bottom: 1px solid #ccc;
+
+    .nav-wrapper {
+        display: flex;
+        width: 100vw;
+        margin-left: 20px;
+
+        .logo {
+            font-size: 30px;
+            text-decoration: none;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+/* Mobile*/
+@media (max-width: 739px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+
+        .nav-wrapper {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+        }
+    }
+}

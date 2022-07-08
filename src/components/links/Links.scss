@@ -1,0 +1,25 @@
+.links-wrapper {
+    margin: 12px 0px;
+
+    .link {
+        padding: 4px;
+        margin-right: 14px;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        transition: 0.3s;
+
+        &.active {
+            border-color: #93c5fd;
+            padding: 8px;
+        }
+    }
+}
+
+/* Mobile*/
+@media (max-width: 739px) {
+    .links-wrapper {
+        .link {
+            margin-right: 6px;
+        }
+    }
+}
